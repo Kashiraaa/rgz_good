@@ -1,0 +1,34 @@
+{% extends "base.html" %}
+
+{% block header %}
+    <section>
+        <div><form action="/rgz/profile"><button class="button_header" type="submit">Профиль..</button></form></div>
+        <div><form action="/rgz/glav"><button class="button_header" type="submit">Знакомства..</button></form></div>
+        <div><form action="/rgz/login"><button class="button_header" type="submit">Логин..</button></form></div>
+        <div><form action="/rgz/register"><button class="button_header" type="submit">Регистрация..</button></form></div>
+        <div><form action="/rgz/logout"><button class="button_header" type="submit">Выйти..</button></form></div>
+    </section>
+{% endblock %}
+
+{% block main%}
+    <div class="main-page">
+        <div>
+            <div id="welcome">Приветствуем вас на нашем сайте для познания любви....</div>
+            <div class="main-page-content">
+                <div>
+                    Одна из самых важных ценностей в нашей жизни - это любовь и счастливые отношения. 
+                    Мы стремимся помочь вам найти свою вторую половинку, встретить кого-то особенного, кто разделит с вами радость и горе, надежды и мечты.
+                    Здесь вы найдете множество интересных и привлекательных людей, готовых раскрыть свою сторону и открыть свои сердца для новых знакомств. 
+                    Наш сайт поможет вам узнать о них больше, общаться и найти взаимное влечение.
+                </div>
+                <br>
+                <div>
+                    На нашем сайте вы можете себе позволить создать профиль, создать к нему аватар, и  делить информацией о себе для других пользователей. 
+                    Это  поспособствует более быстрому поиску своей второй половинки, а также для дальнейшей вашей любовной деятельности..
+                </div>
+            </div>
+            <div><form action="/rgz/register"><button class="button_header" id="main_register" type="submit">Регистрация</button></form></div>
+            
+        </div>
+    </div>
+{% endblock %}
