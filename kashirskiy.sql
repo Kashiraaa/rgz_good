@@ -1,6 +1,7 @@
--- CREATE USER admin_rgz_kashirskiy_base WITH PASSWORD '123';
--- CREATE DATABASE rgz_kashirskiy_base_web WITH OWNER admin_rgz_kashirskiy_base;
+--CREATE USER admin_rgz_kashirskiy_base WITH PASSWORD '123';
+--CREATE DATABASE rgz_kashirskiy_base_web WITH OWNER admin_rgz_kashirskiy_base;
 
+-- Создание таблицы "Пользователи"
 CREATE TABLE Users (
     user_id SERIAL PRIMARY KEY,
     username VARCHAR(50) NOT NULL,

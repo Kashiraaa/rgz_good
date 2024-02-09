@@ -134,7 +134,7 @@ header div{
 }
 .profile-content{
     margin-left: 25%;
-    color: black;
+    color: white;
 }
 .profile-content div{
     font-size: 24px;
@@ -201,6 +201,7 @@ header div{
 }
 
 .search-result-item{
+    background-color: white;
     position: relative;
     margin-left: 50px;
     width: 500px;
